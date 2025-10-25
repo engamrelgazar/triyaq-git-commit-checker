@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\GitCommitChecker\Commands;
+namespace Tiryaq\GitCommitChecker\Commands;
 
 use Illuminate\Console\Application;
 use Illuminate\Console\Command;

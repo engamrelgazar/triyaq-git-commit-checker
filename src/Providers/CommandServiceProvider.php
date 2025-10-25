@@ -1,9 +1,9 @@
 <?php
 
-namespace Botble\GitCommitChecker\Providers;
+namespace Tiryaq\GitCommitChecker\Providers;
 
-use Botble\GitCommitChecker\Commands\InstallCommand;
-use Botble\GitCommitChecker\Commands\PreCommitHookCommand;
+use Tiryaq\GitCommitChecker\Commands\InstallCommand;
+use Tiryaq\GitCommitChecker\Commands\PreCommitHookCommand;
 use Illuminate\Support\ServiceProvider;
 
 class CommandServiceProvider extends ServiceProvider

@@ -1,29 +1,29 @@
 {
-  "name": "botble/git-commit-checker",
+  "name": "tiryaq/git-commit-checker",
   "description": "Check coding standard & code syntax with Git pre-commit hook.",
   "type": "package",
   "license": "MIT",
   "keywords": [
-    "botble",
-    "botble cms",
-    "botble platform",
-    "botble git commit checker"
+    "tiryaq",
+    "tiryaq cms",
+    "tiryaq platform",
+    "tiryaq git commit checker"
   ],
-  "homepage": "https://botble.com",
+  "homepage": "https://tiryaq.co",
   "authors": [
     {
-      "name": "Sang Nguyen",
-      "email": "sangnguyenplus@gmail.com"
+      "name": "tiryaq",
+      "email": "info@tiryaq.co"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Botble\\GitCommitChecker\\": "src"
+      "Tiryaq\\GitCommitChecker\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Botble\\GitCommitChecker\\Tests\\": "tests"
+      "Tiryaq\\GitCommitChecker\\Tests\\": "tests"
     }
   },
   "require": {
@@ -37,7 +37,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Botble\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
+        "Tiryaq\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
       ]
     }
   },

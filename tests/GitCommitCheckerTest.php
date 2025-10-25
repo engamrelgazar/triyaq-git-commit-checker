@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\GitCommitChecker\Tests;
+namespace Tiryaq\GitCommitChecker\Tests;
 
 use PHPUnit\Framework\TestCase;
 
